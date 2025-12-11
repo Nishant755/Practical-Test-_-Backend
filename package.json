@@ -7,7 +7,10 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "script": "node src/script/JSON_Manipulation.js",
-    "test": "node src/test/test_case.js"
+    "test": "node src/test/test_case.js",
+    "docker": "docker-compose up -d --build",
+    "docker:stop": "docker-compose down",
+    "docker:down": "docker-compose down -v"
   },
   "repository": {
     "type": "git",

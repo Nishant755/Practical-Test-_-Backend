@@ -20,3 +20,7 @@
     2)npm run test:watch {to run the test in watch mode}
     3)npm run test:coverage {to run the test with coverage}
 
+## Docker
+    1)npm run docker {to run the docker}
+    2)npm run docker:stop {to stop the docker}
+    3)npm run docker:down {to down the docker}
