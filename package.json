@@ -1,0 +1,32 @@
+{
+  "name": "practical-test-_-backend",
+  "version": "1.0.0",
+  "description": "1)JSON Manipulation,2)Habit Tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "script": "node src/script/JSON_Manipulation.js",
+    "test": "node src/test/test_case.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishant755/Practical-Test-_-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishant755/Practical-Test-_-Backend/issues"
+  },
+  "homepage": "https://github.com/Nishant755/Practical-Test-_-Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.1"
+  }
+}
